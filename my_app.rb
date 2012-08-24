@@ -7,12 +7,13 @@
 #
 require 'rubygems'
 require 'sinatra'
+require 'slim'
 
 require 'config/init.rb'
 
 # Quick test
 get '/' do
-  haml :index
+  slim :index
 end
 
 # Test at <appname>.heroku.com

@@ -1,4 +1,5 @@
-source :gemcutter
+source 'http://rubygems.org'
+
 gem 'sinatra', '>=1.1.2'
 gem 'sinatra-sequel'
 
@@ -16,4 +17,4 @@ group :production do
   gem 'pg'
 end
 
-gem 'haml'
+gem 'slim'
