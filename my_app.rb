@@ -5,6 +5,7 @@
 #
 # $ ruby heroku-sinatra-app.rb
 #
+$: << File.dirname(__FILE__)
 require 'rubygems'
 require 'sinatra'
 require 'slim'
